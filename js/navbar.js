@@ -10,7 +10,7 @@ class MyNavbar extends HTMLElement {
 					<div class="col-md-12">
 						<ul>
 							<li class="active"><a href="index.html">Home</a></li>
-							<li><a href="Masroor-resume.pdf" target="_blank">My Resume</a></li>
+							<li><a href="resume.html" target="_blank">My Resume</a></li>
 
 						
 						</ul>
