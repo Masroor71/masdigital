@@ -1,8 +1,6 @@
 class Ganalytics extends HTMLElement {
 	connectedCallback(){
-		this.innerHTML = `
-			<div>
-				
+		this.innerHTML = `			
 				<script async src="https://www.googletagmanager.com/gtag/js?id=G-8E8B5TLXJT"></script>
 				<script>
 				  window.dataLayer = window.dataLayer || [];
@@ -11,7 +9,7 @@ class Ganalytics extends HTMLElement {
 
 				  gtag('config', 'G-8E8B5TLXJT');
 				</script>
-			</div>
+		
 		`
 	}
 }
