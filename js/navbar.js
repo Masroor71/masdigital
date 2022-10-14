@@ -9,8 +9,10 @@ class MyNavbar extends HTMLElement {
 				<div class="row">
 					<div class="col-md-12">
 						<ul>
-							<li class="active"><a href="index.html">Home</a></li>
-							<li><a href="resume.html" target="_blank">My Resume</a></li>
+							<li class=""><a href="index.html">Home</a></li>
+							<li class=""><a href="about.html">About Me</a></li>
+							<li class=""><a href="work.html">Portfolio</a></li>
+							<li><a href="resume.html">My Resume</a></li>
 
 						
 						</ul>

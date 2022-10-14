@@ -11,8 +11,8 @@ class MyFooter extends HTMLElement {
 							</div>
 							<div class="text-center"> 
 							<a href="mailto:masroorkhan71@gmail.com"><i class="icon-envelope"></i></a>
-							<a href="https://www.linkedin.com/in/masroor-saad-khan/"><i class="icon-linkedin"></i></a>
-							<i class="fa-brands fa-quora"></i>
+							<a href="https://www.linkedin.com/in/masroor-saad-khan/"><i class="icon-linkedin"></i></a><br>
+							<small>Shoot me a message at <a href="mailto:masroorkhan71@gmail.com">masroorkhan71@gmail.com </a></small>
 							</div>
 						</div>
 					</div>
