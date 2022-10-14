@@ -2,7 +2,7 @@ class Ganalytics extends HTMLElement {
 	connectedCallback(){
 		this.innerHTML = `
 			<div>
-				<!-- Google tag (gtag.js) -->
+				
 				<script async src="https://www.googletagmanager.com/gtag/js?id=G-8E8B5TLXJT"></script>
 				<script>
 				  window.dataLayer = window.dataLayer || [];
