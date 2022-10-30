@@ -12,7 +12,7 @@
 *
 * ======================================================= */
 body {
-  font-family: "Karla", Arial, sans-serif;
+  font-family: 'Lora', serif;
   line-height: 1.8;
   font-size: 16px;
   font-weight: 400;
@@ -47,7 +47,7 @@ a {
 p, span {
   margin-bottom: 1.5em;
   font-weight: 400;
-  font-family: "Karla", Arial, sans-serif; }
+  font-family: 'Lora', serif; }
 
 ul, ol {
   display: block;
@@ -59,7 +59,7 @@ span {
 
 h1, h2, h3, h4, h5, h6 {
   color: rgba(0, 0, 0, 0.8);
-  font-family: "Playfair Display", Georgia, serif;
+  font-family: 'Poppins', sans-serif;
   margin: 0 0 30px 0; }
 
 ::-webkit-selection {
@@ -72,7 +72,7 @@ h1, h2, h3, h4, h5, h6 {
 
 ::selection {
   color: #fcfcfc;
-  background: #b7c2c2; }
+  background: #FFB33F; }
 
 #colorlib-page {
   position: relative;
@@ -335,7 +335,7 @@ header {
 #colorlib-progress,
 #colorlib-contact,
 #colorlib-about {
-  padding: 10em 0;
+  padding: 5em 0;
   clear: both;
   position: relative; }
   @media screen and (max-width: 768px) {
@@ -354,7 +354,7 @@ header {
   top: .4em;
   left: -50px; }
   .rotate .heading {
-    font-family: "Karla", Arial, sans-serif;
+    font-family: 'Lora', serif;
     font-size: 14px;
     text-transform: uppercase;
     letter-spacing: 1em;
@@ -387,7 +387,7 @@ header {
       margin-bottom: 0;
       color: #000;
       font-size: 50px;
-      font-family: "Playfair Display", Georgia, serif; }
+      font-family: 'Poppins', sans-serif; }
   .about-desc .desc {
     padding-left: 6em;
     position: relative; }
@@ -396,7 +396,7 @@ header {
     top: 7px;
     left: 30px; }
     .about-desc .rotate .heading {
-      font-family: "Karla", Arial, sans-serif;
+      font-family: 'Lora', serif;
       font-size: 14px;
       text-transform: uppercase;
       letter-spacing: 1em;
@@ -689,7 +689,7 @@ header {
 .services {
   margin-bottom: 4em; }
   .services h3 {
-    font-family: "Karla", Arial, sans-serif;
+    font-family: 'Lora', serif;
     font-size: 16px;
     text-transform: uppercase;
     font-weight: 700; }
@@ -859,7 +859,7 @@ header {
       .article .blog-img .link .read {
         display: table-cell;
         vertical-align: middle;
-        font-family: "Karla", Arial, sans-serif;
+        font-family:'Lora', serif;
         color: #fff;
         font-size: 12px;
         text-transform: uppercase;
@@ -937,11 +937,11 @@ header {
 .testimony blockquote {
   border: none; }
   .testimony blockquote p {
-    font-family: "Playfair Display", Georgia, serif;
+    font-family: 'Poppins', sans-serif;
     color: #000;
     font-size: 30px; }
   .testimony blockquote span {
-    font-family: "Playfair Display", Georgia, serif;
+    font-family: 'Poppins', sans-serif;
     color: #000;
     font-size: 30px; }
 
@@ -1313,3 +1313,9 @@ input[type="text"] {
 
 .js .animate-box {
   opacity: 0; }
+
+table, th, td {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px;
+}
